@@ -1,0 +1,1135 @@
+
+Cell sg13g2_decap_8 (0) disconnected node: VDD
+Cell sg13g2_decap_8 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_decap_8                  |Circuit 2: sg13g2_decap_8                  
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_decap_8 and sg13g2_decap_8 are equivalent.
+
+Cell sg13g2_fill_1 (0) disconnected node: VDD
+Cell sg13g2_fill_1 (0) disconnected node: VSS
+Cell sg13g2_fill_1 (1) disconnected node: VDD
+Cell sg13g2_fill_1 (1) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_fill_1                   |Circuit 2: sg13g2_fill_1                   
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_fill_1 and sg13g2_fill_1 are equivalent.
+
+Cell sg13g2_nand3_1 (0) disconnected node: Y
+Cell sg13g2_nand3_1 (0) disconnected node: A
+Cell sg13g2_nand3_1 (0) disconnected node: B
+Cell sg13g2_nand3_1 (0) disconnected node: C
+Cell sg13g2_nand3_1 (0) disconnected node: VDD
+Cell sg13g2_nand3_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_nand3_1                  |Circuit 2: sg13g2_nand3_1                  
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_nand3_1 and sg13g2_nand3_1 are equivalent.
+
+Cell sg13g2_decap_4 (0) disconnected node: VDD
+Cell sg13g2_decap_4 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_decap_4                  |Circuit 2: sg13g2_decap_4                  
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_decap_4 and sg13g2_decap_4 are equivalent.
+
+Cell sg13g2_dfrbpq_1 (0) disconnected node: Q
+Cell sg13g2_dfrbpq_1 (0) disconnected node: CLK
+Cell sg13g2_dfrbpq_1 (0) disconnected node: D
+Cell sg13g2_dfrbpq_1 (0) disconnected node: RESET_B
+Cell sg13g2_dfrbpq_1 (0) disconnected node: VDD
+Cell sg13g2_dfrbpq_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_dfrbpq_1                 |Circuit 2: sg13g2_dfrbpq_1                 
+-------------------------------------------|-------------------------------------------
+Q                                          |Q                                          
+CLK                                        |CLK                                        
+D                                          |D                                          
+RESET_B                                    |RESET_B                                    
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_dfrbpq_1 and sg13g2_dfrbpq_1 are equivalent.
+
+Cell sg13g2_nor2b_1 (0) disconnected node: Y
+Cell sg13g2_nor2b_1 (0) disconnected node: A
+Cell sg13g2_nor2b_1 (0) disconnected node: B_N
+Cell sg13g2_nor2b_1 (0) disconnected node: VDD
+Cell sg13g2_nor2b_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_nor2b_1                  |Circuit 2: sg13g2_nor2b_1                  
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+B_N                                        |B_N                                        
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_nor2b_1 and sg13g2_nor2b_1 are equivalent.
+
+Cell sg13g2_mux2_1 (0) disconnected node: X
+Cell sg13g2_mux2_1 (0) disconnected node: A0
+Cell sg13g2_mux2_1 (0) disconnected node: A1
+Cell sg13g2_mux2_1 (0) disconnected node: S
+Cell sg13g2_mux2_1 (0) disconnected node: VDD
+Cell sg13g2_mux2_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_mux2_1                   |Circuit 2: sg13g2_mux2_1                   
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A0                                         |A0                                         
+A1                                         |A1                                         
+S                                          |S                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_mux2_1 and sg13g2_mux2_1 are equivalent.
+
+Cell sg13g2_nand4_1 (0) disconnected node: Y
+Cell sg13g2_nand4_1 (0) disconnected node: A
+Cell sg13g2_nand4_1 (0) disconnected node: B
+Cell sg13g2_nand4_1 (0) disconnected node: C
+Cell sg13g2_nand4_1 (0) disconnected node: D
+Cell sg13g2_nand4_1 (0) disconnected node: VDD
+Cell sg13g2_nand4_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_nand4_1                  |Circuit 2: sg13g2_nand4_1                  
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+D                                          |D                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_nand4_1 and sg13g2_nand4_1 are equivalent.
+
+Cell sg13g2_nand2_1 (0) disconnected node: Y
+Cell sg13g2_nand2_1 (0) disconnected node: A
+Cell sg13g2_nand2_1 (0) disconnected node: B
+Cell sg13g2_nand2_1 (0) disconnected node: VDD
+Cell sg13g2_nand2_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_nand2_1                  |Circuit 2: sg13g2_nand2_1                  
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+B                                          |B                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_nand2_1 and sg13g2_nand2_1 are equivalent.
+
+Cell sg13g2_a22oi_1 (0) disconnected node: Y
+Cell sg13g2_a22oi_1 (0) disconnected node: A1
+Cell sg13g2_a22oi_1 (0) disconnected node: A2
+Cell sg13g2_a22oi_1 (0) disconnected node: B1
+Cell sg13g2_a22oi_1 (0) disconnected node: B2
+Cell sg13g2_a22oi_1 (0) disconnected node: VDD
+Cell sg13g2_a22oi_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_a22oi_1                  |Circuit 2: sg13g2_a22oi_1                  
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+B2                                         |B2                                         
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_a22oi_1 and sg13g2_a22oi_1 are equivalent.
+
+Cell sg13g2_fill_2 (0) disconnected node: VDD
+Cell sg13g2_fill_2 (0) disconnected node: VSS
+Cell sg13g2_fill_2 (1) disconnected node: VDD
+Cell sg13g2_fill_2 (1) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_fill_2                   |Circuit 2: sg13g2_fill_2                   
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_fill_2 and sg13g2_fill_2 are equivalent.
+
+Cell sg13g2_nor3_1 (0) disconnected node: Y
+Cell sg13g2_nor3_1 (0) disconnected node: A
+Cell sg13g2_nor3_1 (0) disconnected node: B
+Cell sg13g2_nor3_1 (0) disconnected node: C
+Cell sg13g2_nor3_1 (0) disconnected node: VDD
+Cell sg13g2_nor3_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_nor3_1                   |Circuit 2: sg13g2_nor3_1                   
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_nor3_1 and sg13g2_nor3_1 are equivalent.
+
+Cell sg13g2_o21ai_1 (0) disconnected node: Y
+Cell sg13g2_o21ai_1 (0) disconnected node: A1
+Cell sg13g2_o21ai_1 (0) disconnected node: A2
+Cell sg13g2_o21ai_1 (0) disconnected node: B1
+Cell sg13g2_o21ai_1 (0) disconnected node: VDD
+Cell sg13g2_o21ai_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_o21ai_1                  |Circuit 2: sg13g2_o21ai_1                  
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_o21ai_1 and sg13g2_o21ai_1 are equivalent.
+
+Cell sg13g2_a21oi_1 (0) disconnected node: Y
+Cell sg13g2_a21oi_1 (0) disconnected node: A1
+Cell sg13g2_a21oi_1 (0) disconnected node: A2
+Cell sg13g2_a21oi_1 (0) disconnected node: B1
+Cell sg13g2_a21oi_1 (0) disconnected node: VDD
+Cell sg13g2_a21oi_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_a21oi_1                  |Circuit 2: sg13g2_a21oi_1                  
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_a21oi_1 and sg13g2_a21oi_1 are equivalent.
+
+Cell sg13g2_nor4_1 (0) disconnected node: Y
+Cell sg13g2_nor4_1 (0) disconnected node: A
+Cell sg13g2_nor4_1 (0) disconnected node: B
+Cell sg13g2_nor4_1 (0) disconnected node: C
+Cell sg13g2_nor4_1 (0) disconnected node: D
+Cell sg13g2_nor4_1 (0) disconnected node: VDD
+Cell sg13g2_nor4_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_nor4_1                   |Circuit 2: sg13g2_nor4_1                   
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+D                                          |D                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_nor4_1 and sg13g2_nor4_1 are equivalent.
+
+Cell sg13g2_inv_1 (0) disconnected node: Y
+Cell sg13g2_inv_1 (0) disconnected node: A
+Cell sg13g2_inv_1 (0) disconnected node: VDD
+Cell sg13g2_inv_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_inv_1                    |Circuit 2: sg13g2_inv_1                    
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_inv_1 and sg13g2_inv_1 are equivalent.
+
+Cell sg13g2_buf_1 (0) disconnected node: X
+Cell sg13g2_buf_1 (0) disconnected node: A
+Cell sg13g2_buf_1 (0) disconnected node: VDD
+Cell sg13g2_buf_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_buf_1                    |Circuit 2: sg13g2_buf_1                    
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_buf_1 and sg13g2_buf_1 are equivalent.
+
+Cell sg13g2_a221oi_1 (0) disconnected node: Y
+Cell sg13g2_a221oi_1 (0) disconnected node: A1
+Cell sg13g2_a221oi_1 (0) disconnected node: A2
+Cell sg13g2_a221oi_1 (0) disconnected node: B1
+Cell sg13g2_a221oi_1 (0) disconnected node: B2
+Cell sg13g2_a221oi_1 (0) disconnected node: C1
+Cell sg13g2_a221oi_1 (0) disconnected node: VDD
+Cell sg13g2_a221oi_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_a221oi_1                 |Circuit 2: sg13g2_a221oi_1                 
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+B2                                         |B2                                         
+C1                                         |C1                                         
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_a221oi_1 and sg13g2_a221oi_1 are equivalent.
+
+Cell sg13g2_nor2_1 (0) disconnected node: Y
+Cell sg13g2_nor2_1 (0) disconnected node: A
+Cell sg13g2_nor2_1 (0) disconnected node: B
+Cell sg13g2_nor2_1 (0) disconnected node: VDD
+Cell sg13g2_nor2_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_nor2_1                   |Circuit 2: sg13g2_nor2_1                   
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+B                                          |B                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_nor2_1 and sg13g2_nor2_1 are equivalent.
+
+Cell sg13g2_and3_1 (0) disconnected node: X
+Cell sg13g2_and3_1 (0) disconnected node: A
+Cell sg13g2_and3_1 (0) disconnected node: B
+Cell sg13g2_and3_1 (0) disconnected node: C
+Cell sg13g2_and3_1 (0) disconnected node: VDD
+Cell sg13g2_and3_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_and3_1                   |Circuit 2: sg13g2_and3_1                   
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_and3_1 and sg13g2_and3_1 are equivalent.
+
+Cell sg13g2_dlygate4sd3_1 (0) disconnected node: X
+Cell sg13g2_dlygate4sd3_1 (0) disconnected node: A
+Cell sg13g2_dlygate4sd3_1 (0) disconnected node: VDD
+Cell sg13g2_dlygate4sd3_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_dlygate4sd3_1            |Circuit 2: sg13g2_dlygate4sd3_1            
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_dlygate4sd3_1 and sg13g2_dlygate4sd3_1 are equivalent.
+
+Cell sg13g2_nand3b_1 (0) disconnected node: Y
+Cell sg13g2_nand3b_1 (0) disconnected node: A_N
+Cell sg13g2_nand3b_1 (0) disconnected node: B
+Cell sg13g2_nand3b_1 (0) disconnected node: C
+Cell sg13g2_nand3b_1 (0) disconnected node: VDD
+Cell sg13g2_nand3b_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_nand3b_1                 |Circuit 2: sg13g2_nand3b_1                 
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A_N                                        |A_N                                        
+B                                          |B                                          
+C                                          |C                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_nand3b_1 and sg13g2_nand3b_1 are equivalent.
+
+Cell sg13g2_mux4_1 (0) disconnected node: X
+Cell sg13g2_mux4_1 (0) disconnected node: A0
+Cell sg13g2_mux4_1 (0) disconnected node: A1
+Cell sg13g2_mux4_1 (0) disconnected node: A2
+Cell sg13g2_mux4_1 (0) disconnected node: A3
+Cell sg13g2_mux4_1 (0) disconnected node: S0
+Cell sg13g2_mux4_1 (0) disconnected node: S1
+Cell sg13g2_mux4_1 (0) disconnected node: VDD
+Cell sg13g2_mux4_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_mux4_1                   |Circuit 2: sg13g2_mux4_1                   
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A0                                         |A0                                         
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+S0                                         |S0                                         
+S1                                         |S1                                         
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_mux4_1 and sg13g2_mux4_1 are equivalent.
+
+Cell sg13g2_and4_1 (0) disconnected node: X
+Cell sg13g2_and4_1 (0) disconnected node: A
+Cell sg13g2_and4_1 (0) disconnected node: B
+Cell sg13g2_and4_1 (0) disconnected node: C
+Cell sg13g2_and4_1 (0) disconnected node: D
+Cell sg13g2_and4_1 (0) disconnected node: VDD
+Cell sg13g2_and4_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_and4_1                   |Circuit 2: sg13g2_and4_1                   
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+D                                          |D                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_and4_1 and sg13g2_and4_1 are equivalent.
+
+Cell sg13g2_and2_1 (0) disconnected node: X
+Cell sg13g2_and2_1 (0) disconnected node: A
+Cell sg13g2_and2_1 (0) disconnected node: B
+Cell sg13g2_and2_1 (0) disconnected node: VDD
+Cell sg13g2_and2_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_and2_1                   |Circuit 2: sg13g2_and2_1                   
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+B                                          |B                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_and2_1 and sg13g2_and2_1 are equivalent.
+
+Cell sg13g2_xnor2_1 (0) disconnected node: Y
+Cell sg13g2_xnor2_1 (0) disconnected node: A
+Cell sg13g2_xnor2_1 (0) disconnected node: B
+Cell sg13g2_xnor2_1 (0) disconnected node: VDD
+Cell sg13g2_xnor2_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_xnor2_1                  |Circuit 2: sg13g2_xnor2_1                  
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+B                                          |B                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_xnor2_1 and sg13g2_xnor2_1 are equivalent.
+
+Cell sg13g2_nand2b_1 (0) disconnected node: Y
+Cell sg13g2_nand2b_1 (0) disconnected node: A_N
+Cell sg13g2_nand2b_1 (0) disconnected node: B
+Cell sg13g2_nand2b_1 (0) disconnected node: VDD
+Cell sg13g2_nand2b_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_nand2b_1                 |Circuit 2: sg13g2_nand2b_1                 
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A_N                                        |A_N                                        
+B                                          |B                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_nand2b_1 and sg13g2_nand2b_1 are equivalent.
+
+Cell sg13g2_tiehi (0) disconnected node: L_HI
+Cell sg13g2_tiehi (0) disconnected node: VDD
+Cell sg13g2_tiehi (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_tiehi                    |Circuit 2: sg13g2_tiehi                    
+-------------------------------------------|-------------------------------------------
+L_HI                                       |L_HI                                       
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_tiehi and sg13g2_tiehi are equivalent.
+
+Cell sg13g2_a21o_1 (0) disconnected node: X
+Cell sg13g2_a21o_1 (0) disconnected node: A1
+Cell sg13g2_a21o_1 (0) disconnected node: A2
+Cell sg13g2_a21o_1 (0) disconnected node: B1
+Cell sg13g2_a21o_1 (0) disconnected node: VDD
+Cell sg13g2_a21o_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_a21o_1                   |Circuit 2: sg13g2_a21o_1                   
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_a21o_1 and sg13g2_a21o_1 are equivalent.
+
+Cell sg13g2_or4_1 (0) disconnected node: X
+Cell sg13g2_or4_1 (0) disconnected node: A
+Cell sg13g2_or4_1 (0) disconnected node: B
+Cell sg13g2_or4_1 (0) disconnected node: C
+Cell sg13g2_or4_1 (0) disconnected node: D
+Cell sg13g2_or4_1 (0) disconnected node: VDD
+Cell sg13g2_or4_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_or4_1                    |Circuit 2: sg13g2_or4_1                    
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+D                                          |D                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_or4_1 and sg13g2_or4_1 are equivalent.
+
+Cell sg13g2_buf_8 (0) disconnected node: X
+Cell sg13g2_buf_8 (0) disconnected node: A
+Cell sg13g2_buf_8 (0) disconnected node: VDD
+Cell sg13g2_buf_8 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_buf_8                    |Circuit 2: sg13g2_buf_8                    
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_buf_8 and sg13g2_buf_8 are equivalent.
+
+Cell sg13g2_or3_1 (0) disconnected node: X
+Cell sg13g2_or3_1 (0) disconnected node: A
+Cell sg13g2_or3_1 (0) disconnected node: B
+Cell sg13g2_or3_1 (0) disconnected node: C
+Cell sg13g2_or3_1 (0) disconnected node: VDD
+Cell sg13g2_or3_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_or3_1                    |Circuit 2: sg13g2_or3_1                    
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_or3_1 and sg13g2_or3_1 are equivalent.
+
+Cell sg13g2_xor2_1 (0) disconnected node: X
+Cell sg13g2_xor2_1 (0) disconnected node: A
+Cell sg13g2_xor2_1 (0) disconnected node: B
+Cell sg13g2_xor2_1 (0) disconnected node: VDD
+Cell sg13g2_xor2_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_xor2_1                   |Circuit 2: sg13g2_xor2_1                   
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+B                                          |B                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_xor2_1 and sg13g2_xor2_1 are equivalent.
+
+Cell sg13g2_or2_1 (0) disconnected node: X
+Cell sg13g2_or2_1 (0) disconnected node: A
+Cell sg13g2_or2_1 (0) disconnected node: B
+Cell sg13g2_or2_1 (0) disconnected node: VDD
+Cell sg13g2_or2_1 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_or2_1                    |Circuit 2: sg13g2_or2_1                    
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+B                                          |B                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_or2_1 and sg13g2_or2_1 are equivalent.
+
+Cell sg13g2_buf_16 (0) disconnected node: X
+Cell sg13g2_buf_16 (0) disconnected node: A
+Cell sg13g2_buf_16 (0) disconnected node: VDD
+Cell sg13g2_buf_16 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_buf_16                   |Circuit 2: sg13g2_buf_16                   
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_buf_16 and sg13g2_buf_16 are equivalent.
+
+Cell sg13g2_inv_4 (0) disconnected node: Y
+Cell sg13g2_inv_4 (0) disconnected node: A
+Cell sg13g2_inv_4 (0) disconnected node: VDD
+Cell sg13g2_inv_4 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_inv_4                    |Circuit 2: sg13g2_inv_4                    
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_inv_4 and sg13g2_inv_4 are equivalent.
+
+Cell sg13g2_inv_8 (0) disconnected node: Y
+Cell sg13g2_inv_8 (0) disconnected node: A
+Cell sg13g2_inv_8 (0) disconnected node: VDD
+Cell sg13g2_inv_8 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_inv_8                    |Circuit 2: sg13g2_inv_8                    
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_inv_8 and sg13g2_inv_8 are equivalent.
+
+Cell sg13g2_inv_2 (0) disconnected node: Y
+Cell sg13g2_inv_2 (0) disconnected node: A
+Cell sg13g2_inv_2 (0) disconnected node: VDD
+Cell sg13g2_inv_2 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_inv_2                    |Circuit 2: sg13g2_inv_2                    
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_inv_2 and sg13g2_inv_2 are equivalent.
+
+Cell sg13g2_inv_16 (0) disconnected node: Y
+Cell sg13g2_inv_16 (0) disconnected node: A
+Cell sg13g2_inv_16 (0) disconnected node: VDD
+Cell sg13g2_inv_16 (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_inv_16                   |Circuit 2: sg13g2_inv_16                   
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_inv_16 and sg13g2_inv_16 are equivalent.
+
+Cell sg13g2_antennanp (0) disconnected node: A
+Cell sg13g2_antennanp (0) disconnected node: VDD
+Cell sg13g2_antennanp (0) disconnected node: VSS
+
+Subcircuit pins:
+Circuit 1: sg13g2_antennanp                |Circuit 2: sg13g2_antennanp                
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sg13g2_antennanp and sg13g2_antennanp are equivalent.
+
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[12]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[13]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[14]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[15]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[16]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[17]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[18]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[19]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[20]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[21]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[22]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[23]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[24]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[25]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[26]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[27]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[28]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[29]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[30]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[31]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[31]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[30]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[29]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[28]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[27]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[26]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[25]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[24]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[23]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[22]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[21]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[20]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[19]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[18]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[17]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[16]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[15]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[14]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[13]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[12]
+Class RVDBG4614 (0):  Merged 8441 parallel devices.
+Class RVDBG4614 (1):  Merged 8441 parallel devices.
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[12]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[13]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[14]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[15]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[16]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[17]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[18]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[19]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[20]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[21]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[22]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[23]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[24]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[25]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[26]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[27]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[28]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[29]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[30]
+Cell RVDBG4614 (0) disconnected node: slave_addr_i[31]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[31]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[30]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[29]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[28]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[27]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[26]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[25]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[24]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[23]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[22]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[21]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[20]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[19]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[18]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[17]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[16]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[15]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[14]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[13]
+Cell RVDBG4614 (1) disconnected node: slave_addr_i[12]
+Subcircuit summary:
+Circuit 1: RVDBG4614                       |Circuit 2: RVDBG4614                       
+-------------------------------------------|-------------------------------------------
+sg13g2_decap_8 (3525->1)                   |sg13g2_decap_8 (3525->1)                   
+sg13g2_fill_1 (1844->1)                    |sg13g2_fill_1 (1844->1)                    
+sg13g2_nand3_1 (288)                       |sg13g2_nand3_1 (288)                       
+sg13g2_decap_4 (1277->1)                   |sg13g2_decap_4 (1277->1)                   
+sg13g2_dfrbpq_1 (1119)                     |sg13g2_dfrbpq_1 (1119)                     
+sg13g2_nor2b_1 (111)                       |sg13g2_nor2b_1 (111)                       
+sg13g2_mux2_1 (336)                        |sg13g2_mux2_1 (336)                        
+sg13g2_nand4_1 (243)                       |sg13g2_nand4_1 (243)                       
+sg13g2_nand2_1 (423)                       |sg13g2_nand2_1 (423)                       
+sg13g2_a22oi_1 (405)                       |sg13g2_a22oi_1 (405)                       
+sg13g2_fill_2 (1799->1)                    |sg13g2_fill_2 (1799->1)                    
+sg13g2_nor3_1 (197)                        |sg13g2_nor3_1 (197)                        
+sg13g2_o21ai_1 (767)                       |sg13g2_o21ai_1 (767)                       
+sg13g2_a21oi_1 (391)                       |sg13g2_a21oi_1 (391)                       
+sg13g2_nor4_1 (196)                        |sg13g2_nor4_1 (196)                        
+sg13g2_inv_1 (131)                         |sg13g2_inv_1 (131)                         
+sg13g2_buf_1 (1100)                        |sg13g2_buf_1 (1100)                        
+sg13g2_a221oi_1 (101)                      |sg13g2_a221oi_1 (101)                      
+sg13g2_nor2_1 (260)                        |sg13g2_nor2_1 (260)                        
+sg13g2_and3_1 (37)                         |sg13g2_and3_1 (37)                         
+sg13g2_dlygate4sd3_1 (332)                 |sg13g2_dlygate4sd3_1 (332)                 
+sg13g2_nand3b_1 (49)                       |sg13g2_nand3b_1 (49)                       
+sg13g2_mux4_1 (61)                         |sg13g2_mux4_1 (61)                         
+sg13g2_and4_1 (42)                         |sg13g2_and4_1 (42)                         
+sg13g2_and2_1 (46)                         |sg13g2_and2_1 (46)                         
+sg13g2_xnor2_1 (9)                         |sg13g2_xnor2_1 (9)                         
+sg13g2_nand2b_1 (90)                       |sg13g2_nand2b_1 (90)                       
+sg13g2_tiehi (149)                         |sg13g2_tiehi (149)                         
+sg13g2_a21o_1 (64)                         |sg13g2_a21o_1 (64)                         
+sg13g2_or4_1 (11)                          |sg13g2_or4_1 (11)                          
+sg13g2_buf_8 (29)                          |sg13g2_buf_8 (29)                          
+sg13g2_or3_1 (27)                          |sg13g2_or3_1 (27)                          
+sg13g2_xor2_1 (5)                          |sg13g2_xor2_1 (5)                          
+sg13g2_or2_1 (18)                          |sg13g2_or2_1 (18)                          
+sg13g2_buf_16 (57)                         |sg13g2_buf_16 (57)                         
+sg13g2_inv_4 (6)                           |sg13g2_inv_4 (6)                           
+sg13g2_inv_8 (5)                           |sg13g2_inv_8 (5)                           
+sg13g2_inv_2 (7)                           |sg13g2_inv_2 (7)                           
+sg13g2_inv_16 (1)                          |sg13g2_inv_16 (1)                          
+sg13g2_antennanp (2)                       |sg13g2_antennanp (2)                       
+Number of devices: 7119                    |Number of devices: 7119                    
+Number of nets: 7245                       |Number of nets: 7245                       
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: RVDBG4614                       |Circuit 2: RVDBG4614                       
+-------------------------------------------|-------------------------------------------
+slave_gnt_o                                |slave_gnt_o                                
+clk_i                                      |clk_i                                      
+testmode_i                                 |testmode_i                                 
+jtag_tdi_i                                 |jtag_tdi_i                                 
+master_rdata_i[9]                          |master_rdata_i[9]                          
+slave_addr_i[10]                           |slave_addr_i[10]                           
+master_other_err_i                         |master_other_err_i                         
+master_rdata_i[17]                         |master_rdata_i[17]                         
+master_rdata_i[20]                         |master_rdata_i[20]                         
+master_rdata_i[16]                         |master_rdata_i[16]                         
+master_rdata_i[18]                         |master_rdata_i[18]                         
+master_rdata_i[19]                         |master_rdata_i[19]                         
+jtag_tms_i                                 |jtag_tms_i                                 
+master_rdata_i[15]                         |master_rdata_i[15]                         
+master_rdata_i[14]                         |master_rdata_i[14]                         
+master_rdata_i[13]                         |master_rdata_i[13]                         
+master_rdata_i[11]                         |master_rdata_i[11]                         
+master_rdata_i[8]                          |master_rdata_i[8]                          
+master_rdata_i[10]                         |master_rdata_i[10]                         
+master_rdata_i[12]                         |master_rdata_i[12]                         
+master_rdata_i[21]                         |master_rdata_i[21]                         
+master_rdata_i[22]                         |master_rdata_i[22]                         
+master_rdata_i[23]                         |master_rdata_i[23]                         
+slave_addr_i[6]                            |slave_addr_i[6]                            
+slave_addr_i[4]                            |slave_addr_i[4]                            
+slave_addr_i[7]                            |slave_addr_i[7]                            
+slave_addr_i[11]                           |slave_addr_i[11]                           
+slave_addr_i[3]                            |slave_addr_i[3]                            
+master_rdata_i[6]                          |master_rdata_i[6]                          
+master_rdata_i[7]                          |master_rdata_i[7]                          
+master_rdata_i[5]                          |master_rdata_i[5]                          
+master_rdata_i[2]                          |master_rdata_i[2]                          
+slave_aid_i[0]                             |slave_aid_i[0]                             
+slave_aid_i[1]                             |slave_aid_i[1]                             
+slave_aid_i[2]                             |slave_aid_i[2]                             
+slave_aid_i[3]                             |slave_aid_i[3]                             
+hartinfo_i[18]                             |hartinfo_i[18]                             
+hartinfo_i[27]                             |hartinfo_i[27]                             
+hartinfo_i[7]                              |hartinfo_i[7]                              
+hartinfo_i[26]                             |hartinfo_i[26]                             
+hartinfo_i[25]                             |hartinfo_i[25]                             
+master_rdata_i[4]                          |master_rdata_i[4]                          
+master_rdata_i[3]                          |master_rdata_i[3]                          
+master_rdata_i[0]                          |master_rdata_i[0]                          
+master_rdata_i[1]                          |master_rdata_i[1]                          
+hartinfo_i[24]                             |hartinfo_i[24]                             
+hartinfo_i[6]                              |hartinfo_i[6]                              
+hartinfo_i[4]                              |hartinfo_i[4]                              
+hartinfo_i[5]                              |hartinfo_i[5]                              
+hartinfo_i[23]                             |hartinfo_i[23]                             
+hartinfo_i[3]                              |hartinfo_i[3]                              
+master_gnt_i                               |master_gnt_i                               
+hartinfo_i[21]                             |hartinfo_i[21]                             
+master_err_i                               |master_err_i                               
+hartinfo_i[30]                             |hartinfo_i[30]                             
+hartinfo_i[31]                             |hartinfo_i[31]                             
+hartinfo_i[12]                             |hartinfo_i[12]                             
+hartinfo_i[15]                             |hartinfo_i[15]                             
+hartinfo_i[20]                             |hartinfo_i[20]                             
+hartinfo_i[10]                             |hartinfo_i[10]                             
+hartinfo_i[14]                             |hartinfo_i[14]                             
+hartinfo_i[2]                              |hartinfo_i[2]                              
+hartinfo_i[11]                             |hartinfo_i[11]                             
+hartinfo_i[1]                              |hartinfo_i[1]                              
+hartinfo_i[0]                              |hartinfo_i[0]                              
+hartinfo_i[19]                             |hartinfo_i[19]                             
+hartinfo_i[29]                             |hartinfo_i[29]                             
+hartinfo_i[16]                             |hartinfo_i[16]                             
+hartinfo_i[9]                              |hartinfo_i[9]                              
+hartinfo_i[13]                             |hartinfo_i[13]                             
+hartinfo_i[17]                             |hartinfo_i[17]                             
+hartinfo_i[22]                             |hartinfo_i[22]                             
+hartinfo_i[28]                             |hartinfo_i[28]                             
+hartinfo_i[8]                              |hartinfo_i[8]                              
+slave_wdata_i[15]                          |slave_wdata_i[15]                          
+slave_wdata_i[24]                          |slave_wdata_i[24]                          
+slave_wdata_i[23]                          |slave_wdata_i[23]                          
+slave_wdata_i[13]                          |slave_wdata_i[13]                          
+slave_wdata_i[22]                          |slave_wdata_i[22]                          
+slave_wdata_i[21]                          |slave_wdata_i[21]                          
+slave_wdata_i[11]                          |slave_wdata_i[11]                          
+slave_wdata_i[30]                          |slave_wdata_i[30]                          
+slave_wdata_i[20]                          |slave_wdata_i[20]                          
+slave_wdata_i[10]                          |slave_wdata_i[10]                          
+slave_wdata_i[14]                          |slave_wdata_i[14]                          
+slave_wdata_i[0]                           |slave_wdata_i[0]                           
+slave_wdata_i[4]                           |slave_wdata_i[4]                           
+master_rdata_i[30]                         |master_rdata_i[30]                         
+master_rdata_i[31]                         |master_rdata_i[31]                         
+slave_wdata_i[29]                          |slave_wdata_i[29]                          
+slave_wdata_i[19]                          |slave_wdata_i[19]                          
+slave_wdata_i[31]                          |slave_wdata_i[31]                          
+slave_wdata_i[9]                           |slave_wdata_i[9]                           
+slave_wdata_i[28]                          |slave_wdata_i[28]                          
+slave_wdata_i[18]                          |slave_wdata_i[18]                          
+slave_wdata_i[12]                          |slave_wdata_i[12]                          
+slave_wdata_i[8]                           |slave_wdata_i[8]                           
+slave_wdata_i[17]                          |slave_wdata_i[17]                          
+slave_wdata_i[27]                          |slave_wdata_i[27]                          
+slave_wdata_i[26]                          |slave_wdata_i[26]                          
+slave_wdata_i[16]                          |slave_wdata_i[16]                          
+slave_wdata_i[3]                           |slave_wdata_i[3]                           
+slave_wdata_i[7]                           |slave_wdata_i[7]                           
+slave_wdata_i[25]                          |slave_wdata_i[25]                          
+slave_wdata_i[2]                           |slave_wdata_i[2]                           
+slave_wdata_i[6]                           |slave_wdata_i[6]                           
+slave_wdata_i[1]                           |slave_wdata_i[1]                           
+slave_wdata_i[5]                           |slave_wdata_i[5]                           
+master_rdata_i[29]                         |master_rdata_i[29]                         
+master_rdata_i[28]                         |master_rdata_i[28]                         
+jtag_trst_ni                               |jtag_trst_ni                               
+master_rdata_i[24]                         |master_rdata_i[24]                         
+master_rdata_i[25]                         |master_rdata_i[25]                         
+master_rdata_i[26]                         |master_rdata_i[26]                         
+master_rdata_i[27]                         |master_rdata_i[27]                         
+slave_addr_i[8]                            |slave_addr_i[8]                            
+slave_we_i                                 |slave_we_i                                 
+slave_addr_i[0]                            |slave_addr_i[0]                            
+slave_be_i[3]                              |slave_be_i[3]                              
+slave_be_i[2]                              |slave_be_i[2]                              
+slave_addr_i[9]                            |slave_addr_i[9]                            
+slave_addr_i[1]                            |slave_addr_i[1]                            
+unavailable_i                              |unavailable_i                              
+slave_be_i[0]                              |slave_be_i[0]                              
+slave_be_i[1]                              |slave_be_i[1]                              
+rst_ni                                     |rst_ni                                     
+slave_addr_i[2]                            |slave_addr_i[2]                            
+dmactive_o                                 |dmactive_o                                 
+ndmreset_o                                 |ndmreset_o                                 
+slave_rid_o[0]                             |slave_rid_o[0]                             
+slave_rid_o[1]                             |slave_rid_o[1]                             
+slave_rid_o[2]                             |slave_rid_o[2]                             
+slave_rid_o[3]                             |slave_rid_o[3]                             
+debug_req_o                                |debug_req_o                                
+slave_rvalid_o                             |slave_rvalid_o                             
+slave_rdata_o[12]                          |slave_rdata_o[12]                          
+slave_rdata_o[23]                          |slave_rdata_o[23]                          
+slave_rdata_o[22]                          |slave_rdata_o[22]                          
+slave_rdata_o[31]                          |slave_rdata_o[31]                          
+master_wdata_o[21]                         |master_wdata_o[21]                         
+slave_rdata_o[0]                           |slave_rdata_o[0]                           
+slave_rdata_o[1]                           |slave_rdata_o[1]                           
+slave_rdata_o[19]                          |slave_rdata_o[19]                          
+slave_rdata_o[29]                          |slave_rdata_o[29]                          
+slave_rdata_o[9]                           |slave_rdata_o[9]                           
+slave_rdata_o[18]                          |slave_rdata_o[18]                          
+slave_rdata_o[2]                           |slave_rdata_o[2]                           
+master_we_o                                |master_we_o                                
+slave_rdata_o[7]                           |slave_rdata_o[7]                           
+jtag_tdo_o                                 |jtag_tdo_o                                 
+master_req_o                               |master_req_o                               
+master_addr_o[12]                          |master_addr_o[12]                          
+master_be_o[0]                             |master_be_o[0]                             
+master_be_o[1]                             |master_be_o[1]                             
+master_be_o[2]                             |master_be_o[2]                             
+master_be_o[3]                             |master_be_o[3]                             
+jtag_tdo_oe_o                              |jtag_tdo_oe_o                              
+master_addr_o[11]                          |master_addr_o[11]                          
+master_addr_o[19]                          |master_addr_o[19]                          
+master_addr_o[22]                          |master_addr_o[22]                          
+master_addr_o[29]                          |master_addr_o[29]                          
+master_addr_o[30]                          |master_addr_o[30]                          
+master_addr_o[31]                          |master_addr_o[31]                          
+master_addr_o[17]                          |master_addr_o[17]                          
+master_addr_o[21]                          |master_addr_o[21]                          
+master_addr_o[25]                          |master_addr_o[25]                          
+master_addr_o[28]                          |master_addr_o[28]                          
+master_addr_o[0]                           |master_addr_o[0]                           
+master_addr_o[15]                          |master_addr_o[15]                          
+master_addr_o[1]                           |master_addr_o[1]                           
+master_addr_o[20]                          |master_addr_o[20]                          
+master_addr_o[8]                           |master_addr_o[8]                           
+master_addr_o[13]                          |master_addr_o[13]                          
+master_addr_o[16]                          |master_addr_o[16]                          
+master_addr_o[23]                          |master_addr_o[23]                          
+master_addr_o[24]                          |master_addr_o[24]                          
+master_addr_o[26]                          |master_addr_o[26]                          
+master_addr_o[27]                          |master_addr_o[27]                          
+master_addr_o[4]                           |master_addr_o[4]                           
+master_addr_o[5]                           |master_addr_o[5]                           
+master_addr_o[6]                           |master_addr_o[6]                           
+master_addr_o[9]                           |master_addr_o[9]                           
+master_addr_o[10]                          |master_addr_o[10]                          
+master_addr_o[14]                          |master_addr_o[14]                          
+master_addr_o[18]                          |master_addr_o[18]                          
+master_addr_o[2]                           |master_addr_o[2]                           
+master_addr_o[3]                           |master_addr_o[3]                           
+master_addr_o[7]                           |master_addr_o[7]                           
+slave_rdata_o[16]                          |slave_rdata_o[16]                          
+master_wdata_o[19]                         |master_wdata_o[19]                         
+master_wdata_o[22]                         |master_wdata_o[22]                         
+master_wdata_o[17]                         |master_wdata_o[17]                         
+master_wdata_o[23]                         |master_wdata_o[23]                         
+master_wdata_o[20]                         |master_wdata_o[20]                         
+master_wdata_o[27]                         |master_wdata_o[27]                         
+master_wdata_o[28]                         |master_wdata_o[28]                         
+master_wdata_o[29]                         |master_wdata_o[29]                         
+master_wdata_o[30]                         |master_wdata_o[30]                         
+master_wdata_o[31]                         |master_wdata_o[31]                         
+slave_rdata_o[11]                          |slave_rdata_o[11]                          
+slave_rdata_o[21]                          |slave_rdata_o[21]                          
+slave_rdata_o[25]                          |slave_rdata_o[25]                          
+slave_rdata_o[4]                           |slave_rdata_o[4]                           
+slave_rdata_o[10]                          |slave_rdata_o[10]                          
+slave_rdata_o[17]                          |slave_rdata_o[17]                          
+slave_rdata_o[15]                          |slave_rdata_o[15]                          
+slave_rdata_o[26]                          |slave_rdata_o[26]                          
+slave_rdata_o[3]                           |slave_rdata_o[3]                           
+master_wdata_o[24]                         |master_wdata_o[24]                         
+master_wdata_o[26]                         |master_wdata_o[26]                         
+master_wdata_o[16]                         |master_wdata_o[16]                         
+master_wdata_o[18]                         |master_wdata_o[18]                         
+slave_rdata_o[24]                          |slave_rdata_o[24]                          
+slave_rdata_o[13]                          |slave_rdata_o[13]                          
+slave_rdata_o[14]                          |slave_rdata_o[14]                          
+slave_rdata_o[20]                          |slave_rdata_o[20]                          
+slave_rdata_o[27]                          |slave_rdata_o[27]                          
+slave_rdata_o[28]                          |slave_rdata_o[28]                          
+slave_rdata_o[30]                          |slave_rdata_o[30]                          
+slave_rdata_o[5]                           |slave_rdata_o[5]                           
+slave_rdata_o[6]                           |slave_rdata_o[6]                           
+slave_rdata_o[8]                           |slave_rdata_o[8]                           
+master_wdata_o[0]                          |master_wdata_o[0]                          
+master_wdata_o[1]                          |master_wdata_o[1]                          
+master_wdata_o[2]                          |master_wdata_o[2]                          
+master_wdata_o[3]                          |master_wdata_o[3]                          
+master_wdata_o[5]                          |master_wdata_o[5]                          
+master_wdata_o[4]                          |master_wdata_o[4]                          
+master_wdata_o[7]                          |master_wdata_o[7]                          
+master_wdata_o[6]                          |master_wdata_o[6]                          
+master_wdata_o[25]                         |master_wdata_o[25]                         
+master_wdata_o[14]                         |master_wdata_o[14]                         
+master_wdata_o[12]                         |master_wdata_o[12]                         
+master_wdata_o[11]                         |master_wdata_o[11]                         
+master_wdata_o[10]                         |master_wdata_o[10]                         
+master_wdata_o[13]                         |master_wdata_o[13]                         
+master_wdata_o[15]                         |master_wdata_o[15]                         
+master_wdata_o[9]                          |master_wdata_o[9]                          
+master_wdata_o[8]                          |master_wdata_o[8]                          
+master_rvalid_i                            |master_rvalid_i                            
+jtag_tck_i                                 |jtag_tck_i                                 
+slave_req_i                                |slave_req_i                                
+slave_addr_i[5]                            |slave_addr_i[5]                            
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+slave_addr_i[12]                           |slave_addr_i[12]                           
+slave_addr_i[13]                           |slave_addr_i[13]                           
+slave_addr_i[14]                           |slave_addr_i[14]                           
+slave_addr_i[15]                           |slave_addr_i[15]                           
+slave_addr_i[16]                           |slave_addr_i[16]                           
+slave_addr_i[17]                           |slave_addr_i[17]                           
+slave_addr_i[18]                           |slave_addr_i[18]                           
+slave_addr_i[19]                           |slave_addr_i[19]                           
+slave_addr_i[20]                           |slave_addr_i[20]                           
+slave_addr_i[21]                           |slave_addr_i[21]                           
+slave_addr_i[22]                           |slave_addr_i[22]                           
+slave_addr_i[23]                           |slave_addr_i[23]                           
+slave_addr_i[24]                           |slave_addr_i[24]                           
+slave_addr_i[25]                           |slave_addr_i[25]                           
+slave_addr_i[26]                           |slave_addr_i[26]                           
+slave_addr_i[27]                           |slave_addr_i[27]                           
+slave_addr_i[28]                           |slave_addr_i[28]                           
+slave_addr_i[29]                           |slave_addr_i[29]                           
+slave_addr_i[30]                           |slave_addr_i[30]                           
+slave_addr_i[31]                           |slave_addr_i[31]                           
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes RVDBG4614 and RVDBG4614 are equivalent.
+
+Final result: Circuits match uniquely.
+.

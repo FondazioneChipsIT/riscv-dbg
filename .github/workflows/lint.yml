@@ -25,7 +25,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
       - name: Check license notices
-        run: ci/check-license.sh
+        run: RVDBG4614-main/testbench/riscv-dbg/ci/check-license.sh
 
   slang:
     name: Slang elaboration
@@ -85,13 +85,13 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v9.0.0
       - name: Run Ruff
-        run: uvx --from ruff==0.16.0 ruff check debug_rom/gen_rom.py tb/veri-run-openocd.py
+        run: uvx --from ruff==0.16.0 ruff check RVDBG4614-main/rtl/riscv-dbg/debug_rom/gen_rom.py RVDBG4614-main/testbench/riscv-dbg/tb/veri-run-openocd.py
       - name: Run tclint
         run: |
           uvx --from tclint==0.4.2 tclint \
-            tb/dm_mem/test_access_widths_vsim.tcl \
-            tb/vsim_batch.tcl \
-            tb/vsim_gui.tcl
+            RVDBG4614-main/testbench/riscv-dbg/tb/dm_mem/test_access_widths_vsim.tcl \
+            RVDBG4614-main/testbench/riscv-dbg/tb/vsim_batch.tcl \
+            RVDBG4614-main/testbench/riscv-dbg/tb/vsim_gui.tcl
 
   verilator:
     name: Verilator lint

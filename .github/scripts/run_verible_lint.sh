@@ -8,11 +8,18 @@
 
 set -euo pipefail
 
+# Lint the riscv-dbg sources and the RVDBG4614 hard-macro wrapper. Vendored
+# third-party code (common_cells, Croc SoC testbench, CVE2) is excluded.
+
 while IFS= read -r -d '' file; do
   if [[ -f "${file}" ]]; then
     printf '%s\0' "${file}"
   fi
-done < <(git ls-files -z '*.sv' '*.svh' '*.v') \
+done < <(git ls-files -z -- \
+  ':(glob)RVDBG4614-main/rtl/riscv-dbg/**/*.sv' \
+  ':(glob)RVDBG4614-main/rtl/RVDBG4614.sv' \
+  ':(glob)RVDBG4614-main/testbench/riscv-dbg/**/*.sv' \
+  ':(glob)RVDBG4614-main/testbench/riscv-dbg/**/*.v') \
   | xargs -0 verible-verilog-lint \
       --lint_fatal \
       --parse_fatal \

@@ -288,7 +288,7 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.568905"
      inkscape:cx="296.11683"
@@ -330,6 +330,13 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <rect
+     id="background"
+     x="0"
+     y="0"
+     width="156.09554"
+     height="95.26458"
+     style="fill:#ffffff;fill-opacity:1;stroke:none" />
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"

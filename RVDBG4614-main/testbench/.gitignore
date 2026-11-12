@@ -1,0 +1,6 @@
+obj_dir*
+*.vcd
+*.fst
+*.fst.hier
+*.log
+build/

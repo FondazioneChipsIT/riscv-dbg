@@ -1,0 +1,28 @@
+{
+  "name": "RVDBG4614",
+  "repository_name": "IHP_D_RVDBG4614",
+  "design_type": "D",
+  "technology": "IHP",
+  "unique_id": "0xCC72",
+  "license": "SHL-0.51",
+  "iprl": 5,
+  "repository": "https://github.com/pulp-platform/riscv-dbg",
+  "pdk_version": "be443daab937daa9154c9c4e73584524f431bd97",
+  "process": "SG13G2",
+  "dependencies": {},
+  "tools": {
+    "librelane": "3.0.2",
+    "openroad": "dcf36133a369abc8f3c5e5738cd4d82e4903c0e0",
+    "yosys": "0.64",
+    "verilator": "5.046",
+    "magic": "8.3.636",
+    "netgen": "1.5.318",
+    "klayout": "0.30.8"
+  },
+  "release": {
+    "version": "v.1.0.0",
+    "gds": "release/v.1.0.0/RVDBG4614.gds",
+    "notes": "release/v.1.0.0/ReleaseNote.md",
+    "measurements": "release/v.1.0.0/measurements"
+  }
+}

@@ -1,0 +1,35 @@
+// Copyright 2026 EuroCDP contributors.
+// Solderpad Hardware License, Version 0.51, see LICENSE for details.
+// SPDX-License-Identifier: SHL-0.51
+//
+// Lint waivers for the LibreLane Verilator.Lint step of RVDBG4614.
+
+`verilator_config
+
+// ---------------------------------------------------------------------------
+// riscv-dbg: same waivers (and justifications) as upstream .github/verilator.vlt
+// ---------------------------------------------------------------------------
+// These package constants form part of the public API but are unused by this lint top.
+lint_off -rule UNUSEDPARAM -file "*src/dm_pkg.sv"
+// Preserve the public helper signatures; JAL and AUIPC immediates are aligned, so bit zero is not encoded.
+lint_off -rule UNUSEDSIGNAL -file "*src/dm_pkg.sv" -match "Bits of function variable are not used: 'imm'[0]*"
+// Keep the public port until dmactive SBA reset behavior is resolved.
+lint_off -rule UNUSEDSIGNAL -file "*src/dm_sba.sv" -match "Signal is not used: 'dmactive_i'*"
+// Preserve the specification-sized public hart selector; the one-hart configuration only uses bit zero.
+lint_off -rule UNUSEDSIGNAL -file "*src/dm_mem.sv" -match "Bits of signal are not used: 'hartsel_i'[19:1]*"
+// Bit 23 is reserved in the Access Register command encoding.
+lint_off -rule UNUSEDSIGNAL -file "*src/dm_mem.sv" -match "Bits of signal are not used: 'ac_ar'[23]*"
+// Preserve the generic 64-bit ROM address port; the ROM is naturally word-aligned and occupies fewer address bits.
+lint_off -rule UNUSEDSIGNAL -file "*debug_rom/debug_rom.sv" -match "Bits of signal are not used: 'addr_i'[63:8,2:0]*"
+// Unused status outputs of common_cells instances are intentionally left open
+// (upstream lints with -Wno-PINCONNECTEMPTY).
+lint_off -rule PINCONNECTEMPTY -file "*src/dm_csrs.sv"
+lint_off -rule PINCONNECTEMPTY -file "*src/dmi_cdc.sv"
+
+// ---------------------------------------------------------------------------
+// Vendored common_cells (linted in its own repository)
+// ---------------------------------------------------------------------------
+lint_off -rule GENUNNAMED -file "*/common_cells/*"
+lint_off -rule WIDTHTRUNC -file "*/common_cells/cdc_2phase_clearable.sv"
+lint_off -rule UNUSEDSIGNAL -file "*/common_cells/fifo_v3.sv" -match "Signal is not used: 'testmode_i'*"
+lint_off -rule UNUSEDPARAM -file "*/common_cells/cdc_reset_ctrlr.sv" -match "Parameter is not used: 'SYNC_STAGES'*"

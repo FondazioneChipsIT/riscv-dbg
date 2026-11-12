@@ -4,6 +4,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## EuroCDP RVDBG4614 v.1.0.0 - 2026-11-11
+### Added
+- Repository restructured according to the EuroCDP IP template (generated with
+  `gen_structure.py` as `IHP_D_RVDBG4614`); upstream sources moved to
+  `RVDBG4614-main/rtl/riscv-dbg/`, upstream testbenches and CI scripts to
+  `RVDBG4614-main/testbench/riscv-dbg/`, with all paths (Bender.yml,
+  src_files.yml, CI scripts, GitHub workflows) updated.
+- `RVDBG4614` hard-macro top level (dmi_jtag + dm_obi_top, one hart, 32-bit OBI).
+- LibreLane Classic flow for IHP SG13G2, timing constraints, Makefile, and
+  release views in `release/v.1.0.0/`.
+- Croc SoC based system testbench (RTL, post-synthesis and post-PnR) with a
+  debug-module self test (abstract commands and program buffer).
+- EuroCDP documentation (`doc/`): overview, datasheet, specification, IPRL
+  assessment and `info.json`.
+
+### Changed
+- `dm_mem`: merge the two asynchronous-reset `if` statements of the `p_regs`
+  process into a single if/else (no functional change) so that yosys-slang
+  infers plain asynchronous-reset flip-flops.
+
 ## Unreleased
 
 ### Fixed

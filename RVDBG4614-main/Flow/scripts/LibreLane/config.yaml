@@ -1,0 +1,109 @@
+# Copyright 2026 EuroCDP contributors.
+# Solderpad Hardware License, Version 0.51, see LICENSE for details.
+# SPDX-License-Identifier: SHL-0.51
+#
+# LibreLane (Classic flow) configuration for the RVDBG4614 RISC-V debug module
+# hard macro on IHP SG13G2.
+#
+# The PDK is taken from the environment (PDK_ROOT, default /foss/pdks); see the
+# Makefile one level above (make librelane).
+
+meta:
+  version: 3
+  flow: Classic
+  substituting_steps:
+
+    # Magic reports some overlaps which can be ignored
+    Checker.IllegalOverlap: null
+
+PDK: ihp-sg13g2
+
+DESIGN_NAME: RVDBG4614
+
+VERILOG_INCLUDE_DIRS:
+- dir::../../../rtl/common_cells/include
+VERILOG_FILES:
+# common_cells (only the modules used by the debug module)
+- dir::../../../rtl/common_cells/cdc_reset_ctrlr_pkg.sv
+- dir::../../../rtl/common_cells/sync.sv
+- dir::../../../rtl/common_cells/spill_register_flushable.sv
+- dir::../../../rtl/common_cells/spill_register.sv
+- dir::../../../rtl/common_cells/cdc_4phase.sv
+- dir::../../../rtl/common_cells/cdc_reset_ctrlr.sv
+- dir::../../../rtl/common_cells/cdc_2phase_clearable.sv
+- dir::../../../rtl/common_cells/fifo_v3.sv
+# Technology clock cells (IHP SG13G2 mapping of tech_cells_generic tc_clk)
+- dir::../../../rtl/tc_clk.sv
+# PULP riscv-dbg
+- dir::../../../rtl/riscv-dbg/src/dm_pkg.sv
+- dir::../../../rtl/riscv-dbg/debug_rom/debug_rom.sv
+- dir::../../../rtl/riscv-dbg/debug_rom/debug_rom_one_scratch.sv
+- dir::../../../rtl/riscv-dbg/src/dm_csrs.sv
+- dir::../../../rtl/riscv-dbg/src/dm_mem.sv
+- dir::../../../rtl/riscv-dbg/src/dmi_cdc.sv
+- dir::../../../rtl/riscv-dbg/src/dmi_jtag_tap.sv
+- dir::../../../rtl/riscv-dbg/src/dm_sba.sv
+- dir::../../../rtl/riscv-dbg/src/dm_top.sv
+- dir::../../../rtl/riscv-dbg/src/dmi_jtag.sv
+- dir::../../../rtl/riscv-dbg/src/dm_obi_top.sv
+# Hard macro top level
+- dir::../../../rtl/RVDBG4614.sv
+
+LINTER_VLT: dir::./verilator_cfg.vlt
+
+VERILOG_DEFINES: [COMMON_CELLS_ASSERTS_OFF]
+
+# Enable plugin for better SystemVerilog support
+USE_SLANG: True
+SLANG_ARGUMENTS: ['--allow-use-before-declare','--ignore-unknown-modules','--ignore-assertions']
+
+# Valid values are AREA 0-3 and DELAY 0-4
+# DELAY 4 = fastest, but largest area
+# AREA 3 = slowest, but smallest area
+SYNTH_STRATEGY: DELAY 2
+
+# SDC files (two clocks: clk_i and jtag_tck_i, see the SDC for details)
+PNR_SDC_FILE: dir::RVDBG4614.sdc
+SIGNOFF_SDC_FILE: dir::RVDBG4614.sdc
+FALLBACK_SDC: dir::RVDBG4614.sdc
+
+# Clock
+CLOCK_PORT: [clk_i, jtag_tck_i]
+CLOCK_PERIOD: 10 # 100 MHz system clock (JTAG clock: 25 ns, set in the SDC)
+CLOCK_UNCERTAINTY_CONSTRAINT: 0.1
+CLOCK_TRANSITION_CONSTRAINT: 0.2
+
+# Floorplan
+FP_SIZING: absolute
+DIE_AREA: [0, 0, 400, 500] # all pins on the east side (pin_order.cfg)
+IO_PIN_ORDER_CFG: dir::pin_order.cfg
+PDN_MULTILAYER: False
+
+# Placement
+PL_TARGET_DENSITY_PCT: 60
+PL_TIMING_DRIVEN: True
+PL_ROUTABILITY_DRIVEN: True
+
+# CTS
+RUN_CTS: true
+CTS_ROOT_BUFFER: sg13g2_buf_8
+CTS_CLK_BUFFERS: ["sg13g2_buf_2","sg13g2_buf_4","sg13g2_buf_8","sg13g2_buf_16"]
+# No non-default rule (double spacing) on clock nets: with it, detailed routing
+# finds no access point for the Metal1 input pin of sg13g2_buf_8 clock buffers.
+CTS_APPLY_NDR: none
+
+# Routing: keep signal routing below TopMetal1/TopMetal2 so that the parent
+# design can route over the macro.
+GRT_ANTENNA_REPAIR_MARGIN: 30
+RT_MAX_LAYER: Metal5
+RT_CLOCK_MAX_LAYER: Metal5
+
+# Timing
+RUN_POST_CTS_RESIZER_TIMING: True
+RUN_POST_GRT_RESIZER_TIMING: True
+# Fix setup violations
+PL_RESIZER_SETUP_SLACK_MARGIN: 0.2
+GRT_RESIZER_SETUP_SLACK_MARGIN: 0.1
+# Fix hold violations
+PL_RESIZER_HOLD_SLACK_MARGIN: 0.1
+GRT_RESIZER_HOLD_SLACK_MARGIN: 0.05

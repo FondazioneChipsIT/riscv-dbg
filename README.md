@@ -1,41 +1,101 @@
-# RISC-V Debug Support for various Cores
+# RVDBG4614 - RISC-V Debug Module
 
-This module is an implementation of a debug unit compliant with the [RISC-V
-debug specification](https://github.com/riscv/riscv-debug-spec) v0.13.2. It is
-used in the [cva6](https://github.com/pulp-platform/cva6),
-[cv32e40p](https://github.com/pulp-platform/cv32e40p) and
-[ibex](https://github.com/lowRISC/ibex) cores.
+RVDBG4614 is a hard-macro packaging of the PULP Platform
+[riscv-dbg](https://github.com/pulp-platform/riscv-dbg) debug system: a RISC-V
+External Debug Support (v0.13.2) compliant Debug Module (DM) with program
+buffer and System Bus Access, together with its JTAG Debug Transport Module
+(DTM). It provides run-control debug (halt, resume, single step, register and
+memory access) for RISC-V cores such as CV32E20/CVE2, Ibex, CV32E40P and CVA6.
 
-## Implementation
-We use an execution-based technique, also described in the specification, where
-the core is running in a "park loop". Depending on the request made to the debug
-unit via JTAG over the Debug Transport Module (DTM), the code that is being
-executed is changed dynamically. This approach simplifies the implementation
-side of the core, but means that the core is in fact always busy looping while
-debugging.
+Within the EuroCDP project the original IP was reorganized according to the
+EuroCDP IP directory and release structure. The resulting package was enhanced
+with a reproducible LibreLane physical-design flow for the IHP SG13G2 open PDK,
+a gate-level capable simulation flow, implementation reports and release
+deliverables.
 
-## Features
-The following features are currently supported
+The EuroCDP IP documentation is in the [`doc`](doc/) folder
+([overview](doc/overview.md), [datasheet](doc/Datasheet.md),
+[specification](doc/Specification.md), [IPRL assessment](doc/IPRL-Digital-Hard-IP.md)),
+together with the original upstream description of the debug system
+([debug-system.md](doc/debug-system.md)). The original upstream README is kept
+as [PULP_README.md](PULP_README.md).
 
-* Parametrizable 32- or 64-bit debug-module bus width, independent of hart XLEN
-* Accessing 32- or 64-bit hart registers over abstract commands
-* Program buffer
-* System bus access over a 32- or 64-bit bus
-* DTM with JTAG interface
+- `RVDBG4614-main/`: implementation views; top cell `RVDBG4614`.
+- `doc/`: datasheet, specification, metadata, and completed IPRL questionnaire.
+- `dependencies/`: dependency IP packages (none).
+- `release/v.1.0.0/`: `RVDBG4614.gds`, release notes, all macro views and `measurements/`.
 
-These are not implemented (yet)
+## Repository structure
 
-* Trigger module
-* Quick access using abstract commands
-* Accessing memory using abstract commands
-* Authentication
+```text
+.
+├── RVDBG4614-main/              implementation (EuroCDP digital IP structure)
+│   ├── Makefile                 flow entry point (make help)
+│   ├── rtl/                     RVDBG4614.sv top, riscv-dbg sources, common_cells, tc_clk
+│   ├── constraints/sdc/         timing constraints
+│   ├── Flow/scripts/LibreLane/  LibreLane (Classic flow) configuration
+│   ├── synthesis/               synthesis netlist, SDF and reports
+│   ├── PlaceAndRoute/           routed netlist, GDS, LEF, DEF, Liberty, SDF, SPEF
+│   ├── testbench/               Croc SoC testbench + upstream riscv-dbg testbenches
+│   └── verification/            lint, DRC, LVS, antenna and STA reports
+├── doc/                         EuroCDP documentation and metadata (info.json)
+├── release/v.1.0.0/             release notes and views
+├── Bender.yml, src_files.yml    upstream package manifests (paths updated)
+└── PULP_README.md, CHANGELOG.md, LICENSE, LICENSE.SiFive
+```
 
-## Limitations
-* The JTAG clock frequency needs to be lower than the system's clock frequency (see also https://github.com/pulp-platform/riscv-dbg/issues/163). 
+`Bender.yml` is kept at the repository root so that the repository can still be
+used as a [Bender](https://github.com/pulp-platform/bender) dependency.
 
-## Tests
+## Requirements
 
-We use OpenOCD's [RISC-V compliance
-tests](https://github.com/riscv/riscv-openocd/blob/riscv/src/target/riscv/riscv-013.c),
-our custom testbench in `tb/` and
-[riscv-tests/debug](https://github.com/riscv/riscv-tests/tree/master/debug).
+The flow was developed and run in the
+[IIC-OSIC-TOOLS](https://github.com/iic-jku/IIC-OSIC-TOOLS) environment, which
+provides LibreLane, OpenROAD, Yosys, Magic, Netgen, KLayout, Verilator and the
+IHP SG13G2 PDK under `/foss/pdks`. Another PDK installation can be selected
+with `PDK_ROOT=<path>` (the directory that contains `ihp-sg13g2/`).
+
+## Running the flow
+
+From `RVDBG4614-main/`, run the complete RTL-to-GDS LibreLane flow and copy the
+results into the `synthesis/`, `PlaceAndRoute/` and `verification/` folders:
+
+```
+make all
+```
+
+The simulation flow covers RTL, post-synthesis and post-place-and-route
+simulations, which can be executed with:
+
+```
+make simulate-rtl
+make simulate-postsynth
+make simulate-postpnr
+```
+
+To check the full list of makefile commands run:
+
+```
+make help
+```
+
+## Development
+
+Development, issues, merge requests, and releases are managed in the
+authoritative EuroCDP GitLab repository on code.europa.eu. Approved content is
+published through a GitLab push mirror to the EuroCDP GitHub organization.
+
+## Repository notice (GitHub mirror)
+
+> This repository is a public mirror of the EuroCDP development repository
+> hosted on code.europa.eu. Development, issues, merge requests, and releases
+> are managed in GitLab. Changes made directly in this GitHub repository
+> may be overwritten.
+
+## License
+
+The riscv-dbg sources are licensed under the Solderpad Hardware License v0.51
+(see [LICENSE](LICENSE)); parts derived from SiFive code are licensed under the
+Apache License 2.0 (see [LICENSE.SiFive](LICENSE.SiFive)). Vendored third-party
+code (common_cells, Croc SoC testbench, CVE2) keeps its original license
+headers.
