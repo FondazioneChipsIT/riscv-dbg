@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13g2
 magscale 1 2
-timestamp 1794405333
+timestamp 1794489634
 << metal1 >>
 rect 1152 96788 78816 96812
 rect 1152 96748 4928 96788
@@ -480775,26 +480775,26 @@ timestamp 1680000651
 transform 1 0 78048 0 1 6048
 box -48 -56 432 834
 << labels >>
-flabel metal6 s 4892 2898 5332 96894 0 FreeSans 2624 90 0 0 VGND
-port 0 nsew ground bidirectional
-flabel metal6 s 20012 2898 20452 96894 0 FreeSans 2624 90 0 0 VGND
-port 0 nsew ground bidirectional
-flabel metal6 s 35132 2898 35572 96894 0 FreeSans 2624 90 0 0 VGND
-port 0 nsew ground bidirectional
-flabel metal6 s 50252 2898 50692 96894 0 FreeSans 2624 90 0 0 VGND
-port 0 nsew ground bidirectional
-flabel metal6 s 65372 2898 65812 96894 0 FreeSans 2624 90 0 0 VGND
-port 0 nsew ground bidirectional
-flabel metal6 s 3652 2980 4092 96812 0 FreeSans 2624 90 0 0 VPWR
-port 1 nsew power bidirectional
-flabel metal6 s 18772 2980 19212 96812 0 FreeSans 2624 90 0 0 VPWR
-port 1 nsew power bidirectional
-flabel metal6 s 33892 2980 34332 96812 0 FreeSans 2624 90 0 0 VPWR
-port 1 nsew power bidirectional
-flabel metal6 s 49012 2980 49452 96812 0 FreeSans 2624 90 0 0 VPWR
-port 1 nsew power bidirectional
-flabel metal6 s 64132 2980 64572 96812 0 FreeSans 2624 90 0 0 VPWR
-port 1 nsew power bidirectional
+flabel metal6 s 3652 2980 4092 96812 0 FreeSans 2624 90 0 0 VDD
+port 0 nsew power bidirectional
+flabel metal6 s 18772 2980 19212 96812 0 FreeSans 2624 90 0 0 VDD
+port 0 nsew power bidirectional
+flabel metal6 s 33892 2980 34332 96812 0 FreeSans 2624 90 0 0 VDD
+port 0 nsew power bidirectional
+flabel metal6 s 49012 2980 49452 96812 0 FreeSans 2624 90 0 0 VDD
+port 0 nsew power bidirectional
+flabel metal6 s 64132 2980 64572 96812 0 FreeSans 2624 90 0 0 VDD
+port 0 nsew power bidirectional
+flabel metal6 s 4892 2898 5332 96894 0 FreeSans 2624 90 0 0 VSS
+port 1 nsew ground bidirectional
+flabel metal6 s 20012 2898 20452 96894 0 FreeSans 2624 90 0 0 VSS
+port 1 nsew ground bidirectional
+flabel metal6 s 35132 2898 35572 96894 0 FreeSans 2624 90 0 0 VSS
+port 1 nsew ground bidirectional
+flabel metal6 s 50252 2898 50692 96894 0 FreeSans 2624 90 0 0 VSS
+port 1 nsew ground bidirectional
+flabel metal6 s 65372 2898 65812 96894 0 FreeSans 2624 90 0 0 VSS
+port 1 nsew ground bidirectional
 flabel metal3 s 79920 43556 80000 43636 0 FreeSans 320 0 0 0 clk_i
 port 2 nsew signal input
 flabel metal3 s 79920 47252 80000 47332 0 FreeSans 320 0 0 0 debug_req_o

@@ -24,7 +24,7 @@ IHP SG13G2 130 nm BiCMOS, `sg13g2_stdcell` library.
 | Core utilization | 64.9 % |
 | Synthesized logic area (Yosys) | 101 350 µm², 5 554 cells |
 | Flip-flops | 1 119 (`sg13g2_dfrbpq_1`) |
-| Signal pins | 265 |
+| Signal pins | 263 (265 pins including the 2 power pins) |
 | Routing layers | Metal1-Metal5 (signals and clock), TopMetal1 (PDN straps) |
 | Power pins | `VDD`, `VSS` (TopMetal1 vertical straps) |
 | Total wire length | 318.3 mm |
@@ -48,8 +48,8 @@ period (see `RVDBG4614-main/constraints/sdc/RVDBG4614.sdc`).
 | nom_typ_1p20V_25C | +2.216 ns | 0 | +0.206 ns | 0 |
 | nom_fast_1p32V_m40C | +2.434 ns | 0 | +0.100 ns | 0 |
 
-No maximum slew, capacitance or fanout violations in any corner. Worst setup
-clock skew: 0.43 ns (slow corner).
+No maximum slew or capacitance violations in any corner. Worst setup clock
+skew: 0.43 ns (slow corner).
 
 Clock-domain crossings (inside `dmi_cdc` only) are constrained to settle
 within `min(T_clk_i, T_tck)` (bundled data and handshakes) and within 3 ns for

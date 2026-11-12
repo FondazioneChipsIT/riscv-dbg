@@ -1105,8 +1105,8 @@ master_rvalid_i                            |master_rvalid_i
 jtag_tck_i                                 |jtag_tck_i                                 
 slave_req_i                                |slave_req_i                                
 slave_addr_i[5]                            |slave_addr_i[5]                            
-VPWR                                       |VPWR                                       
-VGND                                       |VGND                                       
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
 slave_addr_i[12]                           |slave_addr_i[12]                           
 slave_addr_i[13]                           |slave_addr_i[13]                           
 slave_addr_i[14]                           |slave_addr_i[14]                           

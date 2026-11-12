@@ -6,7 +6,7 @@
   "unique_id": "0xCC72",
   "license": "SHL-0.51",
   "iprl": 5,
-  "repository": "https://github.com/pulp-platform/riscv-dbg",
+  "repository": "https://github.com/FondazioneChipsIT/riscv-dbg",
   "pdk_version": "be443daab937daa9154c9c4e73584524f431bd97",
   "process": "SG13G2",
   "dependencies": {},

@@ -68,7 +68,7 @@ not been completed.
 - [ ] Has the LEC between the RTL and the post-place-and-route design been performed? - not done
 - [x] Have final post-layout PPA results been provided? - [datasheet](Datasheet.md), `RVDBG4614-main/verification/sta/`
 - [x] Have the post-place-and-route simulations been performed, and are the corresponding testbenches provided? - `make simulate-postpnr` (passed, zero-delay)
-- [x] Has signoff been completed in the target technology node? - DRC/antenna/LVS clean, 3-corner STA clean: `RVDBG4614-main/verification/`
+- [x] Has signoff been completed in the target technology node? - DRC/antenna/LVS clean, 3-corner STA with no setup/hold, slew or capacitance violations: `RVDBG4614-main/verification/`
 
 ## IPRL 6 - Full design for SoC integration
 

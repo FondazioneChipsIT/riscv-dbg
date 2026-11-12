@@ -77,6 +77,11 @@ CLOCK_TRANSITION_CONSTRAINT: 0.2
 FP_SIZING: absolute
 DIE_AREA: [0, 0, 400, 500] # all pins on the east side (pin_order.cfg)
 IO_PIN_ORDER_CFG: dir::pin_order.cfg
+
+# Power: name the macro's supply pins VDD/VSS (as the IHP cells) instead of the
+# PDK default VPWR/VGND. Both lists must be set together.
+VDD_NETS: ["VDD"]
+GND_NETS: ["VSS"]
 PDN_MULTILAYER: False
 
 # Placement

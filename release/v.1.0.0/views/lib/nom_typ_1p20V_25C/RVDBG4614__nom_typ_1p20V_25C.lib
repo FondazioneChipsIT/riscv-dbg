@@ -329,16 +329,16 @@ library (RVDBG4614) {
       capacitance : 0.0086;
       timing() {
         related_pin : "jtag_tck_i";
-        timing_type : setup_falling;
+        timing_type : setup_rising;
 	rise_constraint(scalar) {
-          values("-0.79137");
+          values("0.93027");
 	}
       }
       timing() {
         related_pin : "jtag_tck_i";
-        timing_type : setup_rising;
+        timing_type : setup_falling;
 	rise_constraint(scalar) {
-          values("0.93027");
+          values("-0.79137");
 	}
       }
     }

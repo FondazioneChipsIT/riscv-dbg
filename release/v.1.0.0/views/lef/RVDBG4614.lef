@@ -7,31 +7,7 @@ MACRO RVDBG4614
   FOREIGN RVDBG4614 ;
   ORIGIN 0.000 0.000 ;
   SIZE 400.000 BY 500.000 ;
-  PIN VGND
-    DIRECTION INOUT ;
-    USE GROUND ;
-    PORT
-      LAYER TopMetal1 ;
-        RECT 24.460 14.490 26.660 484.470 ;
-    END
-    PORT
-      LAYER TopMetal1 ;
-        RECT 100.060 14.490 102.260 484.470 ;
-    END
-    PORT
-      LAYER TopMetal1 ;
-        RECT 175.660 14.490 177.860 484.470 ;
-    END
-    PORT
-      LAYER TopMetal1 ;
-        RECT 251.260 14.490 253.460 484.470 ;
-    END
-    PORT
-      LAYER TopMetal1 ;
-        RECT 326.860 14.490 329.060 484.470 ;
-    END
-  END VGND
-  PIN VPWR
+  PIN VDD
     DIRECTION INOUT ;
     USE POWER ;
     PORT
@@ -54,7 +30,31 @@ MACRO RVDBG4614
       LAYER TopMetal1 ;
         RECT 320.660 14.900 322.860 484.060 ;
     END
-  END VPWR
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER TopMetal1 ;
+        RECT 24.460 14.490 26.660 484.470 ;
+    END
+    PORT
+      LAYER TopMetal1 ;
+        RECT 100.060 14.490 102.260 484.470 ;
+    END
+    PORT
+      LAYER TopMetal1 ;
+        RECT 175.660 14.490 177.860 484.470 ;
+    END
+    PORT
+      LAYER TopMetal1 ;
+        RECT 251.260 14.490 253.460 484.470 ;
+    END
+    PORT
+      LAYER TopMetal1 ;
+        RECT 326.860 14.490 329.060 484.470 ;
+    END
+  END VSS
   PIN clk_i
     DIRECTION INPUT ;
     USE SIGNAL ;
